@@ -6,6 +6,7 @@ body{
     width:60%;
   }
   
+  /*styling for each service. clearfix solves position issue which bootstrap media-object class couldn't!*/
   .service{
     background: linear-gradient(to left,black, grey, black);
   }
@@ -14,10 +15,15 @@ body{
     width:150px;
   }
   
-  p{
-    color: white
+  div.clearfix {
+    overflow: auto;
+    color: white;
   }
-  
+
+  div.clearfix>img{
+      float: left;
+  }
+  /**/
   .space{
     height: 2em;
   }
