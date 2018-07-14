@@ -6,7 +6,7 @@ body{
     width:60%;
   }
   
-  /*styling for each service. clearfix solves position issue which bootstrap media-object class couldn't!*/
+  /*.service: clearfix solves position issue which bootstrap media-object class couldn't!git git */
   .service{
     background: linear-gradient(to left,black, grey, black);
   }
@@ -23,7 +23,8 @@ body{
   div.clearfix>img{
       float: left;
   }
-  /**/
+  /*.service END*/
+
   .space{
     height: 2em;
   }
