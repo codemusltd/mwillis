@@ -57,7 +57,7 @@ body{
     
     
   /* .service START*/
-    /*.service: clearfix solves position issue which bootstrap media-object class couldn't!git git */
+    /*.service: clearfix solves position issue which bootstrap media-object class couldn't */
   .service{
     background: linear-gradient(to left,black, grey, black);
   }
